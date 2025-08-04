@@ -165,6 +165,12 @@ let audienceData = null;
                     formUrl.textContent = 'Not available';
                     formUrl.href = '#';
                 }
+                const programUrl = document.getElementById('program-url');
+                if (programUrl && user.program) {
+                    programUrl.textContent = user.program;
+                } else if (programUrl) {
+                    programUrl.textContent = 'Not available';
+                }
 
             } catch (error) {
                 console.error('Error updating user info:', error);

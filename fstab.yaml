@@ -1,2 +1,2 @@
-mountpoints: 
-/: https://adobe.sharepoint.com/sites/aem-forms-lab/Shared%20Documents/website
+mountpoints:
+  /: https://adobe.sharepoint.com/sites/aem-forms-lab/Shared%20Documents/website
